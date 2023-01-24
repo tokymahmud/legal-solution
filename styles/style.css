@@ -4,3 +4,15 @@
     position: relative;
     
 }
+h1{
+    font-size: 3rem;
+}
+@media (max-width: 768) {
+    .bannerr{
+        min-height: 30vh;
+    }
+    h1{
+        font-size: calc(1.525rem + 3.3vw);
+    }
+
+}
