@@ -17,7 +17,7 @@
         <!-- navbar  -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand " href="#"><i class="fa-solid fa-gavel --bs-warning-border-subtle"></i>Justice</a>
+              <a class="navbar-brand " href="#"><img src="images/logo2.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -43,7 +43,32 @@
          
                   </li>
                 </ul>
-                  <button type="button ms-5 btn btn-outline-success text-white " class="btn btn-warning">Free Consultation</button>
+                <!-- modal+button  -->
+                  <!-- <button type="button ms-5 btn btn-outline-success text-white " class="btn btn-warning">Free Consultation</button> -->
+                  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary ms-5 btn btn-outline-success text-white text-bg-warning p-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Free Consultation
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Ongoing!!!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          A limited time offer is on going.For further information call our helpline. Hurry up!!!!!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary"><i class="fa-solid fa-phone"></i> call now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                
                 </form>
               </div>
             </div>
@@ -210,9 +235,84 @@
               </div>
 
         </section>
+        <!-- 
+            =-=-=-=-=----=-
+            FAQ PART
+            =-=-=--=-=--=
+         -->
+         <section class="container">
+            <div class="p-5 mt-5 text-start text-md-center">
+                <h1>Frequently Asked Any Questions</h1>
+                <p>A frequently asked questions list is often used in articles, websites, email lists, and online forums where common questions tend to recur, for example through posts or queries by new users related to common knowledge gaps..</p>
+        
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 mt-5 g-5">
+              
+                <div class="col">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                             1. What is the difference between flexbox and grid?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Grid and flexbox.</strong> The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                             2. What is the purpose of media query?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Media queries</strong>  are a key part of responsive web design, as they allow you to create different layouts depending on the size of the viewport, but they can also be used to detect other things about the environment your site is running on, for example whether the user is using a touchscreen rather than a mouse.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                             3. What is css box model how does it work?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>A box</strong> in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box as displayed by CSS.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            4. What is semantic tag?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong> The semantic HTML </strong>tags help the search engines and other user devices to determine the importance and context of web pages. The pages made with semantic elements are much easier to read. It has greater accessibility. It offers a better user experience.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                </div>
+                <div class="col text-center">
+                    <img class="w-50" src="images/faq.png" alt="">
+                </div>
+            </div>
+
+         </section>
+
+         
 
     </main>
     <footer>
+        
 
     </footer>
 
